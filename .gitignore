@@ -1,5 +1,6 @@
 _tpm2__working_dir
 summaries
 public.ek.portion*
-tpm2_ekc*
+tpm2_ekc.der.crt
+tpm2_ekc.der.pem
 
