@@ -13,8 +13,8 @@ readonly h_ek_pub_crt='0x1c00002'
 readonly h_authorization='0x4000000C'
 readonly ek_cert_nvram_attr='0x42072001'
 readonly ek_alg='rsa'
-readonly endorsment_auth='-e password'
-readonly owner_auth='-e password'
+readonly endorsment_auth='' # set to '-e $PASSWORD' if different from null
+readonly owner_auth='' # set to '-o $PASSWORD' if different from null
 
 # Keys parameters
 readonly ca_cert_validity_days=3652
